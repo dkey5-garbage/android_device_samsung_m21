@@ -14,18 +14,18 @@
 # limitations under the License.
 
 ## Inherit from the common tree
-include device/samsung/gta4xl-common/BoardConfigCommon.mk
+include device/samsung/universal9611-common/BoardConfigCommon.mk
 
 ## Inherit from the proprietary configuration
-include vendor/samsung/gta4xl/BoardConfigVendor.mk
+include vendor/samsung/m21/BoardConfigVendor.mk
 
-DEVICE_PATH := device/samsung/gta4xl
+DEVICE_PATH := device/samsung/m21
 
 ## APEX image
 DEXPREOPT_GENERATE_APEX_IMAGE := true
 
 ## Kernel
-TARGET_KERNEL_CONFIG := exynos9611-gta4xl_defconfig
+TARGET_KERNEL_CONFIG := exynos9611-m21_defconfig
 
 ## Manifest
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/device_manifest.xml
