@@ -1,4 +1,4 @@
-# Proprietary files - from Samsung package version M215FXXU2CVCC, unless pinned
+# Proprietary files - from Samsung package version M215FXXU3CVH1, unless pinned
 
 ## Audio
 vendor/etc/floating_feature.xml
@@ -11,9 +11,6 @@ vendor/firmware/CP_AUDIO_SLSI_SEA.bin
 vendor/firmware/SoundBoosterParam.bin
 vendor/firmware/calliope_dram.bin
 vendor/firmware/calliope_sram.bin
-vendor/firmware/cs35l41-dsp1-spk-prot.bin
-vendor/firmware/cs35l41-dsp1-spk-prot.wmfw
-vendor/firmware/cs35l41-dsp1-spk-prot-calib.bin
 
 ## Bluetooth Firmware
 vendor/etc/wifi/mx140_bt.hcf
@@ -58,6 +55,6 @@ vendor/etc/plmn_se13.bin
 ## TEEGRIS Firmware
 vendor/tee/00000000-0000-0000-0000-000000534b4d
 vendor/tee/00000000-0000-0000-0000-0000534b504d
-vendor/tee/00000000-0000-0000-0000-0053545354ab
 vendor/tee/00000000-0000-0000-0000-4b45594d5354
+vendor/tee/00000000-0000-0000-0000-46494e474552
 vendor/tee/00000000-0000-0000-0000-505256544545

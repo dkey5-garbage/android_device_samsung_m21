@@ -18,7 +18,7 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
-## Inherit from gta4xl device
+## Inherit from m21 device
 $(call inherit-product, device/samsung/m21/device.mk)
 
 ## Boot Animation
